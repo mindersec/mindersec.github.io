@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <script>
+    // Redirect all paths to the equivalent URL on docs.mindersec.dev.
+    // GitHub Pages serves this 404.html for any path that has no matching file,
+    // so window.location reflects the originally requested URL.
+    var destination = 'https://docs.mindersec.dev'
+      + window.location.pathname
+      + window.location.search
+      + window.location.hash;
+    window.location.replace(destination);
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a href="https://docs.mindersec.dev/">docs.mindersec.dev</a>…</p>
+</body>
+</html>

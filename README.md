@@ -1,6 +1,8 @@
 # Website for Minder
 
-This site publishes the content from
-https://github.com/mindersec/minder/tree/main/docs to GitHub Pages. You probably
-want to make your changes there, unless you're looking to change the publishing
-process.
+Minder documentation was published for about 6 months using the default GitHub
+Pages URL.  It is now published at the vanity domain
+https://docs.mindersec.dev/ directly from the sources at
+https://github.com/mindersec/minder/tree/main/docs. These pages now simply
+implement redirects to the correct site using a custom 404 page which
+implements a JavaScript redirect.
